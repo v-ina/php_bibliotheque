@@ -1,0 +1,9 @@
+book_search_form.php
+on peux savoir (!empty($_SESSION['user']) && !empty($_SESSION['user']['roles']) && ... (tout ca ligne 8)
+sans session_start(); parce que le header en a deja?
+
+sidebar.php
+c'est normale que j'ai besoin de rafraichir/changer le page pour voir le changerment de sidebar si je fais la rediriger comme deconnexion?
+
+signout.php
+session destroy n'est pas obligé?
